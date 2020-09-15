@@ -93,19 +93,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem style="plain" id="iON-Xu-tw5">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" id="7RE-wY-SgR">
-                                <rect key="frame" x="20" y="9" width="374" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="addCity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dv6-hU-cew"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="A61-Ob-mLv">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="Hg9-fF-M2h"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="Hg9-fF-M2h">
+                            <connections>
+                                <action selector="addCity:" destination="BYZ-38-t0r" id="rez-t3-Zd9"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
